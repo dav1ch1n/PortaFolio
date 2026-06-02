@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="David Gutierrez Lcieras">
+    <meta name="description" content="Portfolio personal de David Gutierrez Liceras">
+    <meta name="robots" content="none">
+    <link rel="shortcut icon" href="./imagenes/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <title>David Gutierrez Liceras</title>
+</head>
+
+<body class="cuerpo">
+    <header class="indice">
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <div class="header-top">
+            <img class="icono" src="./imagenes/favicon.ico" alt="lista">
+            <label for="menu-toggle" class="menu-icon">
+                <img class="menu-img" src="./imagenes/icono.png" alt="lista">
+            </label>
+        </div>
+        <nav class="nav-indice">
+            <ul>
+                <li><a href="#foto-perfil">Inicio</a></li>
+            </ul>
+            <ul>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+            </ul>
+            <ul>
+                <li><a href="#proyecto">Proyectos</a></li>
+            </ul>
+            <ul>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="presentacion">
+            <img id="foto-perfil" src="./imagenes/Foto.png" alt="Foto de David Gutierrez Liceras">
+            <h1 id="titulo">David Gutierrez Liceras</h1>
+        </div>
+        <section class="contenido">
+            <h2 id="sobre-mi">Sobre mí</h2>
+            <article id="texto-presentacion">
+                <p>Soy un perfil técnico en constante evolución. En 2021, tras finalizar mis estudios en
+                    Telecomunicaciones, comencé una etapa laboral de más de tres años (hasta 2024) gestionando sistemas
+                    y redes en entornos reales. Allí aprendí la importancia de la fiabilidad y el mantenimiento
+                    preventivo en el equipamiento informático.
+                </p>
+                <p>Sin embargo, mi curiosidad por saber "cómo funcionan las cosas por dentro" me llevó a la
+                    programación. Actualmente, estoy finalizando el grado de Desarrollo de Aplicaciones Multiplataforma
+                    (DAM).
+                </p>
+                <p>Ahora, busco mi primera oportunidad como desarrollador, aportando la madurez de alguien que ya conoce
+                    el mundo laboral y la visión técnica de quien entiende tanto el software como el hardware donde este
+                    se ejecuta.
+                </p>
+            </article>
+        </section>
+        <section class="proyectos">
+            <h2 id="proyecto">Proyectos</h2>
+            <article id="texto-proyecto">
+                En esta etapa de mi vida he tenido la oportunidad de participar en algunos proyectos significativos.
+                Aunque no han sido muchos, hay dos en particular que destaco con orgullo, ya que han representado un
+                aprendizaje importante y un avance personal.
+            </article>
+            <div class="proyectos-general">
+                <div class="proyecto1">
+                    <img class="imagen-proyecto" src="./imagenes/proyecto1.png" alt="Captura del videojuego de turnos">
+                    <div class="texto-proyecto">
+                        <h3 id="titulo-proyecto1">Videojuego de Turnos Automáticos</h3>
+                        <div>
+                            <span id="referencias">Java</span>
+                            <span id="referencias">Game Development</span>
+                            <span id="referencias">POO</span>
+                        </div>
+                        <div>
+                            <p id="resumen">Un videojuego de turnos automáticos desarrollado como proyecto de clase.</p>
+                            <p id="texto-oculto1" class="texto">El primer proyecto que representó un verdadero reto para
+                                mí fue el desarrollo de un pequeño videojuego de turnos automáticos, realizado como
+                                trabajo para clase. Aunque requirió tiempo y esfuerzo, me siento orgulloso de haberlo
+                                completado. Si bien aún presenta aspectos mejorables, continúo trabajando en ellos de
+                                forma progresiva, lo que refleja mi compromiso con la mejora constante y el aprendizaje.
+                            </p>
+                        </div>
+                        <div id="parte-de-abajo">
+                            <button id="boton1" class="button" onclick="mostrarTexto('boton1', 'texto-oculto1')">Ver
+                                más</button>
+                            <a href="https://github.com/dav1ch1n/ProyectoJuego.git">
+                                <img src="./imagenes/GitHub.png" alt="Repositorio en GitHub" class="repositorio">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="proyecto2">
+                    <img src="./imagenes/Proyecto2.png" alt="Portfolio" class="imagen-proyecto">
+                    <div class="texto-proyecto">
+                        <h3 id="titulo-proyecto2">Este Portafolio Web</h3>
+                        <div>
+                            <span id="referencias">HTML</span>
+                            <span id="referencias">CSS</span>
+                            <span id="referencias">JavaScript</span>
+                        </div>
+                        <div>
+                            <p id="resumen">El segundo es esta página web, que considero un gran inicio para mí.</p>
+                            <p id="texto-oculto2" class="texto">Esta página web representa mi entrada al desarrollo web
+                                moderno.
+                                Desarrollada con tecnologías actuales, muestra mis habilidades y proyectos de una manera
+                                profesional y accesible.
+                                Continúo mejorándola constantemente para reflejar mi progreso como desarrollador.
+                            </p>
+                        </div>
+                        <div id="parte-de-abajo">
+                            <button id="boton2" class="button" onclick="mostrarTexto('boton2', 'texto-oculto2')">Ver
+                                más</button>
+                            <a href="https://github.com/dav1ch1n/Portfolio.git">
+                                <img src="./imagenes/GitHub.png" alt="Repositorio en GitHub" class="repositorio">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="proyecto3">
+                    <img src="./imagenes/Proyecto3.png" alt="Proyecto de red" class="imagen-proyecto">
+                    <div class="texto-proyecto">
+                        <h3 id="titulo-proyecto3">Proyecto de red</h3>
+                        <div>
+                            <span id="referencias">Cisco</span>
+                            <span id="referencias">Redes</span>
+                            <span id="referencias">Te lecomunicaciones</span>
+                        </div>
+                        <div>
+                            <p id="resumen">Sistema de red conectando varios equipos con sistemas de telefonía.</p>
+                            <p id="texto-oculto3" class="texto">Proyecto realizado hace un par de años sobre un sistema
+                                de red conectando varios equipos y luego usando esa red para conectar con sistemas de
+                                telefonía. Este proyecto me permitió aplicar mis conocimientos en Telecomunicaciones de
+                                manera práctica.
+                            </p>
+                        </div>
+                        <div id="parte-de-abajo">
+                            <button id="boton3" class="button" onclick="mostrarTexto('boton3', 'texto-oculto3')">Ver
+                                más</button>
+                            <a href="">
+                                <img src="./imagenes/GitHub.png" alt="Repositorio en GitHub" class="repositorio">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="proyecto4">
+                    <img src="./imagenes/Proyecto4.png" alt="Proyecto de TFG" class="imagen-proyecto">
+                    <div class="texto-proyecto">
+                        <h3 id="titulo-proyecto4">Proyecto de Fin de Grado(TFG)</h3>
+                        <div>
+                            <span id="referencias">PHP</span>
+                            <span id="referencias">MySQL</span>
+                            <span id="referencias">HTML</span>
+                            <span id="referencias">CSS</span>
+                            <span id="referencias">JavaScript</span>
+                        </div>
+                        <div>
+                            <p id="resumen">Proyecto de Fin de Grado sobre una wikipedia del videojuego Megabonk.
+                            </p>
+                            <p id="texto-oculto4" class="texto">Actualmente estoy en proceso de inicio, creando una base
+                                de datos para
+                                desarrollar una wiki completa sobre el videojuego Megabonk. Por ahora tengo un
+                                desarrollo con Figma y estoy en proceso de implementar la base de datos inicial. Este
+                                proyecto combina mi pasión por el desarrollo web con el diseño de bases de datos.
+                            </p>
+                        </div>
+                        <div id="parte-de-abajo">
+                            <button id="boton4" class="button" onclick="mostrarTexto('boton4', 'texto-oculto4')">Ver
+                                más</button>
+                            <a href="https://github.com/dav1ch1n/TFG.git">
+                                <img src="./imagenes/GitHub.png" alt="Repositorio en GitHub" class="repositorio">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <article id="texto-proyecto">
+                Para finalizar, me encuentro en el camino de desarrollar nuevos proyectos que iré compartiendo
+                progresivamente en esta web.
+            </article>
+
+        </section>
+        <section class="contacto">
+            <h2 id="contacto">Contacto</h2>
+            <article class="texto-contacto">
+                <p id="texto">Si quieres contactarme puedes rellenar el siguiente formulario para poder contactarme:</p>
+                <form class="formulario" action="">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje"></textarea>
+                    <!--<input type="submit" value="Enviar">-->
+                </form>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <nav class="Pie-de-pagina">
+            <ul class="redes">
+                <li><a href="https://www.linkedin.com/in/david-gutierrez-liceras-27b397337">Linkeding</a></li>
+            </ul>
+            <ul class="redes">
+                <li><a href="https://github.com/dav1ch1n">Github</a></li>
+            </ul>
+        </nav>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
