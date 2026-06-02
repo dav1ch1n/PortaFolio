@@ -191,14 +191,14 @@
             <h2 id="contacto">Contacto</h2>
             <article class="texto-contacto">
                 <p id="texto">Si quieres contactarme puedes rellenar el siguiente formulario para poder contactarme:</p>
-                <form class="formulario" action="">
+                <form name="contacto-portafolio" method="POST" data-netlify="true">
                     <label for="nombre">Nombre:</label>
-                    <input type="text" id="nombre" name="nombre">
+                    <input type="text" id="nombre" name="nombre" required>
                     <label for="email">Email:</label>
                     <input type="email" id="email" name="email">
                     <label for="mensaje">Mensaje:</label>
                     <textarea id="mensaje" name="mensaje"></textarea>
-                    <!--<input type="submit" value="Enviar">-->
+                    <button type="submit">Enviar mensaje</button>
                 </form>
             </article>
         </section>
