@@ -131,7 +131,24 @@ h2 {
     padding-bottom: 10px;
     display: inline-block;
 }
+/* Estilos para el contenedor y botón del CV */
+.cv-contenedor {
+    margin-top: 35px;
+    text-align: center;
+    width: 100%;
+}
 
+.cv-boton {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 12px 28px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.cv-boton:hover {
+    box-shadow: 0 10px 15px -3px rgba(59, 130, 246, 0.4);
+}
 /* Tarjetas de Proyectos */
 .proyectos-general {
     display: grid;
